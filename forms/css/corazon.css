@@ -44,17 +44,17 @@
 .corazon::after {
     left: 0;
     -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
+    -moz-transform: rotate(45deg); /*Rotación*/
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
     -webkit-transform-origin: 100% 100%;
     -moz-transform-origin: 100% 100%;
     -ms-transform-origin: 100% 100%;
-    -o-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%; /*A partir de donde se justan (el origen)*/
     transform-origin :100% 100%;
 }
-.corazon:hover{
+.corazon:hover{ /*Para simular que el corazón late*/
     -webkit-transform: scale(2.0);
     -moz-transform: scale(2.0);
     -ms-transform: scale(2.0);
